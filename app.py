@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')  # Evita errores en entornos sin GUI
 import matplotlib.pyplot as plt
 
 # URLs de los archivos CSV
